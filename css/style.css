@@ -47,11 +47,15 @@ body{
     width: 100%;
 }
 #nav-items .nav-item{
-    margin:0 1em;
+    margin:0px 2em;
+}
+#nav-items i{
+    font-size:30px;
 }
 .nav-item{
     display: flex;
     flex-direction: column;
+    
 }
 
 @media screen and (min-width:992px) {
@@ -64,5 +68,6 @@ body{
         flex-direction: row;
         justify-content:space-between;
         padding:10px 30px;
+        font-size: 1.3em;
     } 
 }
