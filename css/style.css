@@ -58,6 +58,20 @@ body{
     padding: 15px;
 }
 
+/*    SLIDER    */
+
+#carouselExampleIndicators{
+    margin: 8em auto 1em;
+}
+#carouselExampleIndicators .carousel-caption{
+    bottom: 3em;
+}
+
+
+
+
+
+
 
 @media screen and (min-width:992px) {
     .navbar-nav {
@@ -72,5 +86,11 @@ body{
     } 
     .nav-link{
         margin:0 15px;
+    }
+
+
+    #carouselExampleIndicators{
+        margin: 8em 7em 1em 7em;
+        
     }
 }    
