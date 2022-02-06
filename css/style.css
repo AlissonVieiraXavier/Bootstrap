@@ -110,10 +110,13 @@ body{
     }
 
 
-    #carouselExampleIndicators{
+    #carouselExampleIndicators {
         margin: 8em 7em 1em 7em;
-        max-height: 2000px;
         
+        
+    }
+    #carouselExampleIndicators img{
+        max-height: 700px;
     }
     
     #carouselExampleIndicators .carousel-caption{
