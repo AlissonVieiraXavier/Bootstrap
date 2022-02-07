@@ -91,6 +91,10 @@ color: #111;
 font-size: 40px;
 font-weight: 700;
 }
+#carouselExampleIndicators .carousel-caption h5{
+    font-size: 1.5em;
+    text-shadow:1px 1px #000 ;
+} 
 
 
 
