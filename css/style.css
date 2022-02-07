@@ -113,7 +113,7 @@ font-weight: 700;
     padding-top:10em;
 }
 #mini-banners i{
-    font-size: 22px;
+    font-size: 40px;
     border: transparent;
 }
 
@@ -156,10 +156,7 @@ font-weight: 700;
     #mini-banners button{
         padding-top:10em;
     }
-    #mini-banners i{
-        font-size: 22px;
-        border: transparent;
-    }
+
 }
 
 
