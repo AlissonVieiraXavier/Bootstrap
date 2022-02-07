@@ -100,6 +100,7 @@ font-weight: 700;
     flex-direction: column;
     align-items: center;
     margin: 20px 10%;
+    flex-wrap: nowrap;
 }
 #mini-banners{
     text-align: center;
@@ -113,7 +114,7 @@ font-weight: 700;
     padding-top:10em;
 }
 #mini-banners i{
-    font-size: 40px;
+    font-size: 50px;
     border: transparent;
 }
 
@@ -126,6 +127,8 @@ font-weight: 700;
         font-size: 2.5em;
         text-shadow:2px 2px #000 ;
     } 
+    #mini-banners-flex{
+    flex-wrap: nowrap;}
 
 }
 @media screen and (min-width:800px){
@@ -139,12 +142,14 @@ font-weight: 700;
         justify-content: center;
     }
     #mini-banners{
+      
         text-align: center;
         padding:20px;
         margin:20px auto;
         border: 1px solid rgba(128, 128, 128, 0.638);
         border-radius:5px;
-        width: 15em;
+        width: 25em;
+        height: 25em;
         position:relative;
         bottom:180px;
         background-color: #ffffff;
@@ -191,6 +196,12 @@ font-weight: 700;
 @media screen and (min-width:1000px){
     #carouselExampleIndicators .carousel-caption{
         bottom: 16em;
+    }
+    #mini-banners-flex{
+        flex-wrap: nowrap;
+    }
+    #mini-banners{
+        width: 30%;
     }
 }
 @media screen and (min-width:1300px) {
