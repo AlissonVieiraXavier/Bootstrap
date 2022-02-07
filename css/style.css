@@ -125,9 +125,38 @@ font-weight: 700;
     #carouselExampleIndicators .carousel-caption h5{
         font-size: 2.5em;
         text-shadow:2px 2px #000 ;
-    }  
-}
+    } 
 
+}
+@media screen and (min-width:800px){
+    #mini-banners-flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin:0px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #mini-banners{
+        text-align: center;
+        padding:20px;
+        margin:20px auto;
+        border: 1px solid rgba(128, 128, 128, 0.638);
+        border-radius:5px;
+        width:15em;
+        position:relative;
+        bottom:180px;
+    }
+
+    #mini-banners button{
+        padding-top:10em;
+    }
+    #mini-banners i{
+        font-size: 22px;
+        border: transparent;
+    }
+}
 
 
 
