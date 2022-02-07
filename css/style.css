@@ -144,7 +144,7 @@ font-weight: 700;
         margin:20px auto;
         border: 1px solid rgba(128, 128, 128, 0.638);
         border-radius:5px;
-        width:15em;
+        width: 15em;
         position:relative;
         bottom:180px;
         background-color: #ffffff;
@@ -205,4 +205,11 @@ font-weight: 700;
         
         
     }
+    #mini-banners-flex{
+        justify-content:space-around;
+    }
+    #mini-banners{
+        width: 16em;
+        height: 20em;
+        bottom:13em;}
 }
