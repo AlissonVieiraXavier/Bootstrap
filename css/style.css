@@ -147,6 +147,10 @@ font-weight: 700;
         width:15em;
         position:relative;
         bottom:180px;
+        background-color: #ffffff;
+    }
+    #desktop-button-display-none{
+        display:none;
     }
 
     #mini-banners button{
