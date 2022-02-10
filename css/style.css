@@ -217,8 +217,15 @@ font-weight: 700;
     #mini-banners-flex{
         justify-content:space-around;
     }
+    #mini-banners p{
+        padding:20px;
+    }
     #mini-banners{
-        width: 20em;
-        height: 20em;
+        width: 22em;
+        height: 22em;
         bottom:13em;}
+    #mini-banners:nth-child(2){
+        bottom:15em;
+
+    }
 }
