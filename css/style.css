@@ -157,7 +157,7 @@ font-weight: 700;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    opacity: 0.6;
+    opacity: 0.7;
     transition: .5s;
 }
 
@@ -206,6 +206,10 @@ font-weight: 700;
 
     #mini-banners button{
         padding-top:10em;
+    }
+    .img-fluid{
+        height:45em;
+        width:100%;
     }
 
 }
