@@ -118,6 +118,12 @@ font-weight: 700;
     border: transparent;
 }
 
+/*    DESTAQUES    */
+#featured-container{
+    margin-bottom: 4em;
+}
+
+
 
 
 @media screen and (min-width:700px){
