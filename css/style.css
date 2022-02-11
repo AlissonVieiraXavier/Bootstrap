@@ -160,6 +160,9 @@ font-weight: 700;
     opacity: 0.7;
     transition: .5s;
 }
+.img-fluid{
+    width: 100%;
+}
 
 
 
@@ -211,6 +214,16 @@ font-weight: 700;
         height:45em;
         width:100%;
     }
+    .title{
+        font-size: 2.4em;
+    }
+    .title:before{
+        bottom: 1.5em;
+    }
+    #featured-images .banner-content {
+        opacity:0;
+    }
+
 
 }
 
