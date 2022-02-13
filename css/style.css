@@ -211,6 +211,7 @@ font-weight: 700;
     #mini-banners button{
         padding-top:10em;
     }
+   
     .img-fluid{
         height:45em;
         width:100%;
@@ -223,6 +224,7 @@ font-weight: 700;
     }
     #featured-images .banner-content {
         opacity:0;
+       
     }
 
 
