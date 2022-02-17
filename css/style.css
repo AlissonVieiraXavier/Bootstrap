@@ -231,15 +231,7 @@ width: 100%;
     .title:before{
         bottom: 1.5em;
     }
-    #featured-images .col-md-4 {
-        position:relative;
-        cursor: pointer;
-        opacity: 1;
-    
-    }
-    #featured-images .col-md-4:hover > .banner-content{
-        opacity: 0;
-    }
+  
 
 
 }
