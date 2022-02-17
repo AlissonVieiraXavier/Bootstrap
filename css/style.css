@@ -220,7 +220,12 @@ width: 100%;
     #mini-banners button{
         padding-top:10em;
     }
-   
+    #featured-images .banner-content{
+    background-color: rgba(255, 255, 255, 0.316);}
+    .banner-content h3{
+        opacity:1;
+        color:black;
+    }
     .img-fluid{
         height:45em;
         width:100%;
@@ -232,8 +237,6 @@ width: 100%;
         bottom: 1.5em;
     }
   
-
-
 }
 
 
