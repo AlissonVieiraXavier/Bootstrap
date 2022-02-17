@@ -180,6 +180,10 @@ font-weight: 700;
 #info-content .title::before{
     border-top:4px solid rgba(0, 0, 0, 0.626);
 }
+#info-numbers{
+    padding: 1.5em;
+    font-weight:bold;
+}
 
 
 
