@@ -141,10 +141,13 @@ font-weight: 700;
 #featured-images .col-md-4 {
     position:relative;
     cursor: pointer;
+    opacity: 1;
+
 }
 #featured-images .col-md-4:hover > .banner-content{
-    opacity: 0.8;
+    opacity: 0.2;
 }
+
 
 
 #featured-images .banner-content{
