@@ -197,9 +197,15 @@ font-weight: 700;
     flex-wrap: nowrap;}
     #info-content{
         
-    
+    }
+    #info-content .title::before{
+        border-top:4px solid black;
     }
 
+}
+@media screen and (min-width:800px){
+#info-content .title::before{
+    border-top:none;
 }
 @media screen and (min-width:800px){
     #mini-banners-flex{
@@ -293,6 +299,9 @@ font-weight: 700;
     }
     #mini-banners{
         width: 30%;
+    }
+    #info-content .title::before{
+        border-top:4px solid black;
     }
 }
 @media screen and (min-width:1300px) {
