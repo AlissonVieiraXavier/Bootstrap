@@ -164,6 +164,12 @@ font-weight: 700;
 .img-fluid{
     width: 100%;
 }
+#info-container{
+    margin-top:5em;
+}
+#info-container img{
+width: 100%;
+}
 
 
 
