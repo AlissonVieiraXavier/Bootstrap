@@ -1,4 +1,8 @@
-
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 .bg-primary-color{
     background-color:#fff;
 }
@@ -216,7 +220,20 @@ margin-bottom: 2.5em ;
     color: rgba(255, 255, 255, 0.749);
     cursor:pointer;
 }
-
+#news-container,#contact-container,#links-container{
+    padding: 0;
+    border:0;
+    margin-bottom:2em;
+}
+#footer-details h4{
+    margin-bottom: 1.5em;
+    color:#fff;
+}
+#news-container input{
+    width: 90%;
+    border-radius:0;
+    border:none;
+}
 
 
 
