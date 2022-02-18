@@ -270,10 +270,12 @@ margin-bottom: 2.5em ;
     flex-wrap: nowrap;}
     #info-content{
         margin-right: -1em;
+        font-size:10px;
     }
     #info-content .title::before{
         border-top:4px solid black;
     }
+    #contact-container{ padding-left: 30px;}
 
 }
 @media screen and (min-width:800px){
@@ -373,9 +375,14 @@ margin-bottom: 2.5em ;
     #mini-banners{
         width: 30%;
     }
+    #info-content{ 
+        font-size:1em;
+    }
+   
     #info-content .title::before{
         border-top:4px solid black;
     }
+    #contact-container{ padding-left: 50px;}
 }
 @media screen and (min-width:1300px) {
     #carouselExampleIndicators .carousel-caption{
@@ -383,8 +390,7 @@ margin-bottom: 2.5em ;
     }
     #carouselExampleIndicators {
         margin: 8em 6em 1em 6em;
-        
-        
+     
     }
     #mini-banners-flex{
         justify-content:space-around;
