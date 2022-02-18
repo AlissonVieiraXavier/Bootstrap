@@ -178,11 +178,14 @@ font-weight: 700;
   background:linear-gradient(gray,rgba(128, 128, 128, 0.598),rgba(128, 128, 128, 0.336));
 }
 #info-content .title::before{
-    border-top:4px solid rgba(0, 0, 0, 0.626);
+    border:none;
+    bottom: 10;
 }
 #info-numbers{
     padding: 1.5em;
-    font-weight:bold;
+}
+#info-numbers h3{
+    font-size:3em;
 }
 #info-banner{
 display: flex;
